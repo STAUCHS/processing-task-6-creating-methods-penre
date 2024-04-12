@@ -28,7 +28,8 @@ public class Sketch extends PApplet {
 }
 private void drawHorse(float horseX, float horseY){
   fill(150,75,0);
-  ellipse((horseX),(horseY),(horseX - 600),(horseY - 725)); 
+  
+  ellipse((horseX),(horseY),(horseX - 323),(horseY - 100)); 
   rect((horseX),(horseY),(horseX),(horseY));
   rect((horseX),(horseY),(horseX),(horseY));
   rect((horseX),(horseY),(horseX),(horseY));
@@ -36,9 +37,9 @@ private void drawHorse(float horseX, float horseY){
   rect((horseX),(horseY),(horseX),(horseY));
   line((horseX),(horseY),(horseX),(horseY));
   fill(255);
-  ellipse((horseX), (horseY), (horseX), (horseY));
+  ellipse((horseX), (horseY), (horseX - 200), (horseY - 200));
   fill(0);
-  ellipse((horseX), (horseY), (horseX-20), (horseY-20));
+  ellipse((horseX), (horseY), (horseX - 100), (horseY - 100));
   line((horseX),(horseY),(horseX),(horseY));
   line((horseX),(horseY),(horseX),(horseY));
   line((horseX),(horseY),(horseX),(horseY));
