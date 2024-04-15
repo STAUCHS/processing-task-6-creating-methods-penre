@@ -22,29 +22,23 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {  
-    drawHorse(200,200);
+    drawBullseye(200,200);
+    drawBullseye(400,200);
+    drawBullseye(600,200);
+    
+
    
     
 }
-private void drawHorse(float horseX, float horseY){
-  fill(150,75,0);
-  
-  ellipse((horseX),(horseY),(horseX - 323),(horseY - 100)); 
-  rect((horseX),(horseY),(horseX),(horseY));
-  rect((horseX),(horseY),(horseX),(horseY));
-  rect((horseX),(horseY),(horseX),(horseY));
-  rect((horseX),(horseY),(horseX),(horseY));
-  rect((horseX),(horseY),(horseX),(horseY));
-  line((horseX),(horseY),(horseX),(horseY));
+private void drawBullseye(float horseX, float horseY){
+  fill(250,0,0);
+  ellipse(horseX,horseY,200, 200); 
   fill(255);
-  ellipse((horseX), (horseY), (horseX - 200), (horseY - 200));
+  ellipse(horseX, horseY, 150,  150);
   fill(0);
-  ellipse((horseX), (horseY), (horseX - 100), (horseY - 100));
-  line((horseX),(horseY),(horseX),(horseY));
-  line((horseX),(horseY),(horseX),(horseY));
-  line((horseX),(horseY),(horseX),(horseY));
-  line((horseX),(horseY),(horseX),(horseY));
-  line((horseX),(horseY),(horseX),(horseY));
+  ellipse(horseX, horseY, 100, 100);
+  fill(255);
+  ellipse(horseX,horseY, 50,50);
   
 }
 }
