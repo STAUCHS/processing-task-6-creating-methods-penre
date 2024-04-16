@@ -1,5 +1,15 @@
 import processing.core.PApplet;
 
+/**
+ * create bullseye and spongebob
+ * @param bullX - the x coordinate of the bullseye
+ * @param bullY - the x coordinate of the bullseye
+ * @param spongeX - the x coordinate of the spongebob
+ * @param spongeY - the x coordinate of the spongebob
+ * @param size - the size of the image
+ * @auther P.Z
+ */
+
 public class Sketch extends PApplet {
 	
    /**
